@@ -1,0 +1,7 @@
+endpoint,requests,success_rate,error_rate,4xx,5xx,avg_ms,min_ms,max_ms,p95_ms,status
+/api/payments,176,75.0,25.0,22,22,1983.2,401,4984,4644,CRITICAL
+/api/orders,164,86.59,13.41,8,14,668.8,204,1715,1478,DEGRADED
+/api/login,157,94.9,5.1,4,4,178.7,85,463,249,DEGRADED
+/api/products,145,97.24,2.76,2,2,270.8,102,785,389,HEALTHY
+/api/search,183,98.36,1.64,0,3,380.6,150,952,587,HEALTHY
+/api/users,175,98.86,1.14,2,0,133.4,61,376,193,HEALTHY

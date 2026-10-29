@@ -1,0 +1,111 @@
+{
+    "summary": {
+        "total_requests": 1000,
+        "total_errors": 83,
+        "overall_error_rate": 8.3,
+        "overall_success_rate": 91.7,
+        "avg_response_ms": 619.1,
+        "median_response_ms": 301.0,
+        "p95_response_ms": 2398,
+        "status_codes": {
+            "200": 531,
+            "201": 177,
+            "204": 209,
+            "400": 6,
+            "401": 12,
+            "403": 11,
+            "404": 9,
+            "500": 10,
+            "502": 12,
+            "503": 11,
+            "504": 12
+        },
+        "errors_by_hour": {
+            "08": 17,
+            "09": 17,
+            "10": 18,
+            "11": 24,
+            "12": 7
+        }
+    },
+    "endpoints": [
+        {
+            "endpoint": "/api/payments",
+            "requests": 176,
+            "success_rate": 75.0,
+            "error_rate": 25.0,
+            "4xx": 22,
+            "5xx": 22,
+            "avg_ms": 1983.2,
+            "min_ms": 401,
+            "max_ms": 4984,
+            "p95_ms": 4644,
+            "status": "CRITICAL"
+        },
+        {
+            "endpoint": "/api/orders",
+            "requests": 164,
+            "success_rate": 86.59,
+            "error_rate": 13.41,
+            "4xx": 8,
+            "5xx": 14,
+            "avg_ms": 668.8,
+            "min_ms": 204,
+            "max_ms": 1715,
+            "p95_ms": 1478,
+            "status": "DEGRADED"
+        },
+        {
+            "endpoint": "/api/login",
+            "requests": 157,
+            "success_rate": 94.9,
+            "error_rate": 5.1,
+            "4xx": 4,
+            "5xx": 4,
+            "avg_ms": 178.7,
+            "min_ms": 85,
+            "max_ms": 463,
+            "p95_ms": 249,
+            "status": "DEGRADED"
+        },
+        {
+            "endpoint": "/api/products",
+            "requests": 145,
+            "success_rate": 97.24,
+            "error_rate": 2.76,
+            "4xx": 2,
+            "5xx": 2,
+            "avg_ms": 270.8,
+            "min_ms": 102,
+            "max_ms": 785,
+            "p95_ms": 389,
+            "status": "HEALTHY"
+        },
+        {
+            "endpoint": "/api/search",
+            "requests": 183,
+            "success_rate": 98.36,
+            "error_rate": 1.64,
+            "4xx": 0,
+            "5xx": 3,
+            "avg_ms": 380.6,
+            "min_ms": 150,
+            "max_ms": 952,
+            "p95_ms": 587,
+            "status": "HEALTHY"
+        },
+        {
+            "endpoint": "/api/users",
+            "requests": 175,
+            "success_rate": 98.86,
+            "error_rate": 1.14,
+            "4xx": 2,
+            "5xx": 0,
+            "avg_ms": 133.4,
+            "min_ms": 61,
+            "max_ms": 376,
+            "p95_ms": 193,
+            "status": "HEALTHY"
+        }
+    ]
+}
